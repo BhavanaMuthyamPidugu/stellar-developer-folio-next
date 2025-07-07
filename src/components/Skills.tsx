@@ -12,7 +12,7 @@ const Skills = () => {
         { name: "Tailwind CSS", level: 90 },
         { name: "Next.js", level: 80 },
       ],
-      color: "from-gray-600 to-gray-800"
+      color: "from-blue-500 to-cyan-500"
     },
     {
       title: "Backend",
@@ -22,7 +22,7 @@ const Skills = () => {
         { name: "Python", level: 75 },
         { name: "RESTful APIs", level: 85 },
       ],
-      color: "from-slate-600 to-slate-800"
+      color: "from-green-500 to-emerald-500"
     },
     {
       title: "Database & Tools",
@@ -32,7 +32,7 @@ const Skills = () => {
         { name: "Git", level: 90 },
         { name: "Docker", level: 70 },
       ],
-      color: "from-gray-700 to-gray-900"
+      color: "from-purple-500 to-pink-500"
     }
   ];
 
@@ -43,7 +43,7 @@ const Skills = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
             Skills & Technologies
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-gray-700 to-gray-900 mx-auto rounded-full mb-6"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto rounded-full mb-6"></div>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Here are the technologies and tools I work with to bring ideas to life
           </p>

@@ -10,7 +10,7 @@ const About = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
             About Me
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-gray-700 to-gray-900 mx-auto rounded-full"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto rounded-full"></div>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -28,7 +28,7 @@ const About = () => {
                 clean, efficient code and staying up-to-date with the latest industry trends.
               </p>
 
-              <div className="bg-gradient-to-r from-gray-50 to-slate-50 p-6 rounded-xl border border-gray-200">
+              <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-6 rounded-xl">
                 <h3 className="text-xl font-semibold text-gray-800 mb-3">Education & Background</h3>
                 <p className="text-gray-700">
                   <strong>Bachelor's in Computer Science</strong><br />
@@ -46,9 +46,9 @@ const About = () => {
                 alt="About me"
                 className="w-80 h-96 object-cover rounded-2xl shadow-2xl"
               />
-              <div className="absolute inset-0 bg-gradient-to-tr from-gray-500/10 to-slate-500/10 rounded-2xl"></div>
-              <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-gradient-to-r from-gray-500 to-slate-600 rounded-full opacity-20"></div>
-              <div className="absolute -top-4 -left-4 w-16 h-16 bg-gradient-to-r from-slate-500 to-gray-500 rounded-full opacity-20"></div>
+              <div className="absolute inset-0 bg-gradient-to-tr from-blue-500/10 to-purple-500/10 rounded-2xl"></div>
+              <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full opacity-20"></div>
+              <div className="absolute -top-4 -left-4 w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full opacity-20"></div>
             </div>
           </div>
         </div>

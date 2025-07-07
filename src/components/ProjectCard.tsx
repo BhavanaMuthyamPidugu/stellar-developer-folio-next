@@ -31,7 +31,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
       </div>
       
       <div className="p-6">
-        <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-blue-600 transition-colors">
+        <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-gray-700 transition-colors">
           {project.title}
         </h3>
         
@@ -43,7 +43,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           {project.techStack.map((tech, index) => (
             <span
               key={index}
-              className="px-3 py-1 bg-gradient-to-r from-blue-100 to-purple-100 text-blue-800 rounded-full text-sm font-medium"
+              className="px-3 py-1 bg-gradient-to-r from-gray-100 to-slate-100 text-gray-800 rounded-full text-sm font-medium border border-gray-200"
             >
               {tech}
             </span>
@@ -54,7 +54,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           <Button
             variant="outline"
             size="sm"
-            className="flex-1 border-2 border-gray-300 hover:border-blue-500 hover:text-blue-600 transition-colors"
+            className="flex-1 border-2 border-gray-300 hover:border-gray-500 hover:text-gray-700 transition-colors"
             onClick={() => window.open(project.githubUrl, '_blank')}
           >
             <Github className="w-4 h-4 mr-2" />
@@ -62,7 +62,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           </Button>
           <Button
             size="sm"
-            className="flex-1 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white"
+            className="flex-1 bg-gradient-to-r from-gray-800 to-gray-900 hover:from-gray-900 hover:to-black text-white"
             onClick={() => window.open(project.liveUrl, '_blank')}
           >
             <ExternalLink className="w-4 h-4 mr-2" />

@@ -42,7 +42,7 @@ const Contact = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
             Let's Work Together
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto rounded-full mb-6"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-gray-700 to-gray-900 mx-auto rounded-full mb-6"></div>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Have a project in mind? I'd love to hear about it. Let's discuss how we can bring your ideas to life.
           </p>
@@ -51,12 +51,12 @@ const Contact = () => {
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Contact Info */}
           <div className="space-y-8">
-            <Card className="p-8 bg-gradient-to-br from-blue-50 to-purple-50 border-0 shadow-xl rounded-2xl">
+            <Card className="p-8 bg-gradient-to-br from-gray-50 to-slate-50 border border-gray-200 shadow-xl rounded-2xl">
               <h3 className="text-2xl font-bold text-gray-800 mb-6">Get in Touch</h3>
               
               <div className="space-y-6">
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center">
+                  <div className="w-12 h-12 bg-gradient-to-r from-gray-700 to-gray-900 rounded-full flex items-center justify-center">
                     <Mail className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -66,7 +66,7 @@ const Contact = () => {
                 </div>
                 
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-emerald-600 rounded-full flex items-center justify-center">
+                  <div className="w-12 h-12 bg-gradient-to-r from-slate-700 to-slate-900 rounded-full flex items-center justify-center">
                     <Phone className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -76,7 +76,7 @@ const Contact = () => {
                 </div>
                 
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-600 rounded-full flex items-center justify-center">
+                  <div className="w-12 h-12 bg-gradient-to-r from-gray-600 to-gray-800 rounded-full flex items-center justify-center">
                     <MapPin className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -102,7 +102,7 @@ const Contact = () => {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  className="w-full rounded-xl border-gray-300 focus:border-blue-500 focus:ring-blue-500"
+                  className="w-full rounded-xl border-gray-300 focus:border-gray-500 focus:ring-gray-500"
                   placeholder="Your full name"
                 />
               </div>
@@ -118,7 +118,7 @@ const Contact = () => {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="w-full rounded-xl border-gray-300 focus:border-blue-500 focus:ring-blue-500"
+                  className="w-full rounded-xl border-gray-300 focus:border-gray-500 focus:ring-gray-500"
                   placeholder="your.email@example.com"
                 />
               </div>
@@ -134,14 +134,14 @@ const Contact = () => {
                   value={formData.message}
                   onChange={handleChange}
                   required
-                  className="w-full rounded-xl border-gray-300 focus:border-blue-500 focus:ring-blue-500"
+                  className="w-full rounded-xl border-gray-300 focus:border-gray-500 focus:ring-gray-500"
                   placeholder="Tell me about your project or just say hello!"
                 />
               </div>
               
               <Button
                 type="submit"
-                className="w-full bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
+                className="w-full bg-gradient-to-r from-gray-800 to-gray-900 hover:from-gray-900 hover:to-black text-white py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
               >
                 <Send className="w-5 h-5 mr-2" />
                 Send Message

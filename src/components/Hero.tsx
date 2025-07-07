@@ -19,10 +19,10 @@ const Hero = () => {
               alt="Profile"
               className="w-full h-full rounded-full object-cover border-4 border-white shadow-2xl"
             />
-            <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-blue-400/20 to-purple-400/20"></div>
+            <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-gray-500/20 to-slate-500/20"></div>
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent mb-4">
+          <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-gray-800 via-gray-700 to-gray-900 bg-clip-text text-transparent mb-4">
             Bhavana Muthyam Pidugu
           </h1>
           
@@ -38,7 +38,7 @@ const Hero = () => {
 
         <div className="flex flex-wrap justify-center gap-4 mb-8 animate-fade-in">
           <Button 
-            className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-8 py-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+            className="bg-gradient-to-r from-gray-800 to-gray-900 hover:from-gray-900 hover:to-black text-white px-8 py-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
           >
             <Download className="w-5 h-5 mr-2" />
             Download Resume
@@ -49,9 +49,9 @@ const Hero = () => {
               href="https://linkedin.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110 hover:bg-blue-50"
+              className="p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110 hover:bg-gray-50"
             >
-              <Linkedin className="w-6 h-6 text-blue-600" />
+              <Linkedin className="w-6 h-6 text-gray-700" />
             </a>
             <a
               href="https://github.com"
@@ -65,9 +65,9 @@ const Hero = () => {
               href="https://twitter.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110 hover:bg-blue-50"
+              className="p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110 hover:bg-gray-50"
             >
-              <Twitter className="w-6 h-6 text-blue-400" />
+              <Twitter className="w-6 h-6 text-gray-600" />
             </a>
           </div>
         </div>

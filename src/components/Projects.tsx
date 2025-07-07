@@ -40,7 +40,7 @@ const Projects = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
             Featured Projects
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto rounded-full mb-6"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-gray-700 to-gray-900 mx-auto rounded-full mb-6"></div>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Here are some of my recent projects that showcase my skills and passion for development
           </p>

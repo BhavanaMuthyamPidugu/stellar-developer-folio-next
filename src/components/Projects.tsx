@@ -6,31 +6,41 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, shopping cart, payment integration, and admin dashboard.",
+      title: "ExamEval.ai",
+      description: "AI-Powered Handwritten Scripts Evaluation • Developed an AI-driven system to evaluate hand-written answer scripts using OCR and MachineLearning algorithm suiting and LLMs integration like OpenAI and Google-VisionAPI, improving accuracy and reducing manual effort and error",//•
+      // July2024–Feb2025,
       image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=500&h=300&fit=crop",
-      techStack: ["React", "Node.js", "MongoDB", "Express", "Stripe"],
-      githubUrl: "https://github.com",
+      techStack: ["MERN Stack", "Prompt Engineering", "LLMs(OpenAI,Gemini)", "Python", "API Integration"],
+      githubUrl: "https://github.com/Exam-Eval",
       liveUrl: "https://demo.com"
+      // ExanEval.ai
+    //   AI-PoweredHandwrittenScriptsEvaluation
+    //   July2024–Feb2025
+    //   •DevelopedanAI-drivensystemtoevaluatehand-writtenanswerscriptsusing
+    //   OCRandMachineLearningalgorithmsuitingandLLMsintegrationlikeOpe
+    //  nAIandGoogle-VisionAPI, improvingaccuracyandreducingmanualeffort
+    //   anderror.
+    //   •Designedascalableprocessingpipelineandanintuitiveuserinterfaceforre
+    //  sultvisualizationandfeedback.
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "A collaborative task management application built with React and Firebase. Real-time updates, team collaboration, and project tracking features.",
+      title: "Voice-Based Interaction Website Extension",
+      description: "Hands-Free Interaction for User with voice commands • Built a hands-free web navigation extension using speech recognition, enhancing hands-free accessibility and user experience.",
       image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=500&h=300&fit=crop",
-      techStack: ["React", "Firebase", "Tailwind CSS", "Context API"],
-      githubUrl: "https://github.com",
+      techStack: ["Python", "Node", "API Integration", "Browser Interactions","Browser Extensions", "WhisperLLM"],
+      githubUrl: "https://github.com/BhavanaMuthyamPidugu/Voice-Activated_WebExtension",
       liveUrl: "https://demo.com"
     },
-    {
-      id: 3,
-      title: "Weather Dashboard",
-      description: "A responsive weather application with location-based forecasts, interactive charts, and weather alerts using OpenWeatherMap API.",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=500&h=300&fit=crop",
-      techStack: ["React", "Chart.js", "OpenWeather API", "CSS3"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://demo.com"
-    }
+    // {
+    //   id: 3,
+    //   title: "Weather Dashboard",
+    //   description: "A responsive weather application with location-based forecasts, interactive charts, and weather alerts using OpenWeatherMap API.",
+    //   image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=500&h=300&fit=crop",
+    //   techStack: ["React", "Chart.js", "OpenWeather API", "CSS3"],
+    //   githubUrl: "https://github.com",
+    //   liveUrl: "https://demo.com"
+    // }
   ];
 
   return (
@@ -46,7 +56,7 @@ const Projects = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
           {projects.map((project) => (
             <ProjectCard key={project.id} project={project} />
           ))}

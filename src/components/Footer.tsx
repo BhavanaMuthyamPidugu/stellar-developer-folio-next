@@ -28,9 +28,13 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li><a href="#about" className="text-gray-400 hover:text-white transition-colors">About</a></li>
+              <li><a href="#contact" className="text-gray-400 hover:text-white transition-colors">Internships</a></li>
               <li><a href="#projects" className="text-gray-400 hover:text-white transition-colors">Projects</a></li>
               <li><a href="#skills" className="text-gray-400 hover:text-white transition-colors">Skills</a></li>
+              <li><a href="#achievements" className="text-gray-400 hover:text-white transition-colors">Achievements</a></li>
+              <li><a href="#education" className="text-gray-400 hover:text-white transition-colors">Education</a></li>
               <li><a href="#contact" className="text-gray-400 hover:text-white transition-colors">Contact</a></li>
+
             </ul>
           </div>
           
@@ -86,7 +90,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 pt-8 text-center">
           <p className="text-gray-400 flex items-center justify-center">
             {/* Made with <Heart className="w-4 h-4 mx-2 text-red-500" />  */}
-            By Bhavana Muthyam Pidugu © 2025
+            By Bhavana Muthyam Pidugu © 2025 . All Rights Reserved.
           </p>
         </div>
       </div>

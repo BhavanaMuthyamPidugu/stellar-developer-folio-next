@@ -19,25 +19,51 @@ const Skills = () => {
       skills: [
         { name: "Node.js", level: 85 },
         { name: "Express.js", level: 80 },
-        { name: "Python", level: 75 },
-        { name: "RESTful APIs", level: 85 },
+        { name: "Python APIs", level: 75 },
+        { name: "APIs", level: 85 },
       ],
       color: "from-green-500 to-emerald-500"
     },
     {
-      title: "Database & Tools",
+      title: "Database",
       skills: [
         { name: "MongoDB", level: 80 },
-        { name: "PostgreSQL", level: 75 },
-        { name: "Git", level: 90 },
-        { name: "Docker", level: 70 },
+        { name: "PL/SQL", level: 75 },
+        { name: "Oracle", level: 90 },
+        { name: "ClickHouse", level: 40 },
       ],
       color: "from-purple-500 to-pink-500"
+    },
+    {
+      title: "Tools",
+      skills: [
+        { name: "MongoDB", level: 80 },
+        { name: "PL/SQL", level: 75 },
+        { name: "Oracle", level: 90 },
+        { name: "LLMs", level: 70 },
+      ],
+      color: "from-blue-500 to-cyan-500"
+    },
+    {
+      title: "Languages",
+      skills: [
+        { name: "C", level: 80 },
+        { name: "Python", level: 85 },
+        { name: "Java", level: 80 },
+        { name: "html/JS", level: 70 },
+      ],
+      color: "from-green-500 to-emerald-500"
     }
   ];
 
   return (
-    <section id="skills" className="py-20 px-4">
+    <section id="skills" className="py-20 px-4 bg-gradient-to-br from-purple-100 via-white to-blue-100 relative overflow-hidden">
+      {/* Vertical Line Background */}
+      {/* <div className="absolute inset-0 bg-[url('/pattern-stripes-diagonal.svg')] opacity-5 bg-repeat z-0"></div> */}
+      {/* <div className="absolute inset-0 bg-[url('/spinning-dots.svg')] opacity-5 z-0"></div> */}
+      {/* <div className="absolute inset-0 bg-[url('/gear-spinner.svg')] opacity-5 bg-repeat z-0"></div> */}
+
+      <div className="relative z-10">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
@@ -77,6 +103,7 @@ const Skills = () => {
             </Card>
           ))}
         </div>
+      </div>
       </div>
     </section>
   );

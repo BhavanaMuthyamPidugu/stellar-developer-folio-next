@@ -105,13 +105,22 @@ export default {
 						transform: 'scale(1)',
 						opacity: '1'
 					}
+				},
+				'typing': {
+					'from': { width: '0' },
+					'to': { width: '100%' }
+				  },
+				'blink': {
+					'50%': { borderColor: 'transparent' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'fade-in': 'fade-in 0.6s ease-out',
-				'scale-in': 'scale-in 0.3s ease-out'
+				'scale-in': 'scale-in 0.3s ease-out',
+				'spin-slow': 'spin 12s linear infinite',
+				'typing': 'typing 3.5s steps(40, end), blink .75s step-end infinite'
 			}
 		}
 	},

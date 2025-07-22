@@ -3,6 +3,8 @@ import React from 'react';
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Github, ExternalLink } from 'lucide-react';
+import voiceproImg from '@/components/Voice_Extension_Website_Img.jpeg';
+import examevalproImg from '@/components/ExamEvalAI_Img.jpeg';
 
 interface Project {
   id: number;
@@ -22,11 +24,24 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   return (
     <Card className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden border-0">
       <div className="relative overflow-hidden">
+        <script>
+        if (project.id === 1){
         <img
-          src={project.image}
+          // src={project.image}
+          src={examevalproImg}
           alt={project.title}
           className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
         />
+        }
+        if (project.id === 2){
+        <img
+          // src={project.image}
+          src={voiceproImg}
+          alt={project.title}
+          className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
+        />
+        }
+        </script>
         <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
       </div>
       

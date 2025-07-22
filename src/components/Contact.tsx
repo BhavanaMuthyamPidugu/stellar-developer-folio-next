@@ -68,6 +68,46 @@ const Contact = () => {
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Contact Info */}
           <div className="space-y-8">
+            <Card className="p-8 bg-gradient-to-br from-blue-50 to-purple-50 shadow-xl rounded-2xl hover:shadow-purple-300 transition duration-300 transform hover:-translate-y-2 overflow-hidden border-0">
+              <h3 className="text-2xl font-bold text-gray-800 mb-6 shadow-lg hover:shadow-purple-300 transition duration-300 transform hover:-translate-y-2 overflow-hidden border-0">Get in Touch</h3>
+              
+              <div className="space-y-6">
+                <div className="flex items-center space-x-4">
+                  <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center">
+                    <Mail className="w-6 h-6 text-white" />
+                  </div>
+                  <div>
+                    <p className="text-gray-600">Email</p>
+                    <p className="text-gray-800 font-medium">bhavana.pidugu@sasi.ac.in</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-center space-x-4">
+                  <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-emerald-600 rounded-full flex items-center justify-center">
+                    <Phone className="w-6 h-6 text-white" />
+                  </div>
+                  <div>
+                    <p className="text-gray-600">Phone</p>
+                    <p className="text-gray-800 font-medium">+91 91214 79192</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-center space-x-4">
+                  <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-600 rounded-full flex items-center justify-center">
+                    <MapPin className="w-6 h-6 text-white" />
+                  </div>
+                  <div>
+                    <p className="text-gray-600">Location</p>
+                    <p className="text-gray-800 font-medium">Tanuku, West-Godavari Dist., A.P. - 534 211</p>
+                  </div>
+                </div>
+              </div>
+            </Card>
+          </div>
+
+        {/* <div className="grid lg:grid-cols-2 gap-12"> */}
+          {/* Contact Info */}
+          {/* <div className="space-y-8">
             <Card className="p-8 bg-white/70 border border-purple-300 shadow-2xl rounded-2xl backdrop-blur-lg transition-transform hover:scale-[1.01]">
               <h3 className="text-2xl font-bold text-gray-800 mb-6">Get in Touch</h3>
               <div className="space-y-6">
@@ -100,10 +140,10 @@ const Contact = () => {
                 </div>
               </div>
             </Card>
-          </div>
+          </div> */}
 
           {/* Contact Form */}
-          <Card className="p-8 bg-white/80 border border-blue-300 shadow-xl rounded-2xl backdrop-blur-xl">
+          <Card className="p-8 bg-white/80 border border-blue-300 shadow-xl rounded-2xl backdrop-blur-xl hover:shadow-purple-300 transition duration-300 transform hover:-translate-y-2 overflow-hidden">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
@@ -277,45 +317,45 @@ export default Contact;
 //           </p>
 //         </div>
 
-//         <div className="grid lg:grid-cols-2 gap-12">
-//           {/* Contact Info */}
-//           <div className="space-y-8">
-//             <Card className="p-8 bg-gradient-to-br from-blue-50 to-purple-50 border-0 shadow-xl rounded-2xl">
-//               <h3 className="text-2xl font-bold text-gray-800 mb-6">Get in Touch</h3>
+        // <div className="grid lg:grid-cols-2 gap-12">
+        //   {/* Contact Info */}
+        //   <div className="space-y-8">
+        //     <Card className="p-8 bg-gradient-to-br from-blue-50 to-purple-50 border-0 shadow-xl rounded-2xl">
+        //       <h3 className="text-2xl font-bold text-gray-800 mb-6">Get in Touch</h3>
               
-//               <div className="space-y-6">
-//                 <div className="flex items-center space-x-4">
-//                   <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center">
-//                     <Mail className="w-6 h-6 text-white" />
-//                   </div>
-//                   <div>
-//                     <p className="text-gray-600">Email</p>
-//                     <p className="text-gray-800 font-medium">bhavana.pidugu@sasi.ac.in</p>
-//                   </div>
-//                 </div>
+        //       <div className="space-y-6">
+        //         <div className="flex items-center space-x-4">
+        //           <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center">
+        //             <Mail className="w-6 h-6 text-white" />
+        //           </div>
+        //           <div>
+        //             <p className="text-gray-600">Email</p>
+        //             <p className="text-gray-800 font-medium">bhavana.pidugu@sasi.ac.in</p>
+        //           </div>
+        //         </div>
                 
-//                 <div className="flex items-center space-x-4">
-//                   <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-emerald-600 rounded-full flex items-center justify-center">
-//                     <Phone className="w-6 h-6 text-white" />
-//                   </div>
-//                   <div>
-//                     <p className="text-gray-600">Phone</p>
-//                     <p className="text-gray-800 font-medium">+91 91214 79192</p>
-//                   </div>
-//                 </div>
+        //         <div className="flex items-center space-x-4">
+        //           <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-emerald-600 rounded-full flex items-center justify-center">
+        //             <Phone className="w-6 h-6 text-white" />
+        //           </div>
+        //           <div>
+        //             <p className="text-gray-600">Phone</p>
+        //             <p className="text-gray-800 font-medium">+91 91214 79192</p>
+        //           </div>
+        //         </div>
                 
-//                 <div className="flex items-center space-x-4">
-//                   <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-600 rounded-full flex items-center justify-center">
-//                     <MapPin className="w-6 h-6 text-white" />
-//                   </div>
-//                   <div>
-//                     <p className="text-gray-600">Location</p>
-//                     <p className="text-gray-800 font-medium">Tanuku, West-Godavari Dist., A.P. - 534 211</p>
-//                   </div>
-//                 </div>
-//               </div>
-//             </Card>
-//           </div>
+        //         <div className="flex items-center space-x-4">
+        //           <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-600 rounded-full flex items-center justify-center">
+        //             <MapPin className="w-6 h-6 text-white" />
+        //           </div>
+        //           <div>
+        //             <p className="text-gray-600">Location</p>
+        //             <p className="text-gray-800 font-medium">Tanuku, West-Godavari Dist., A.P. - 534 211</p>
+        //           </div>
+        //         </div>
+        //       </div>
+        //     </Card>
+        //   </div>
 
 //           {/* Contact Form */}
 //           <Card className="p-8 bg-white/70 backdrop-blur-sm border-0 shadow-xl rounded-2xl">

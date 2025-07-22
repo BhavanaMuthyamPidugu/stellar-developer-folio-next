@@ -36,7 +36,7 @@ const Achievements = () => {
             <li className="bg-white/80 p-6 rounded-xl shadow-lg hover:shadow-purple-300 transition duration-300">
               <h3 className="text-xl font-semibold text-purple-700">🌟 4th Prize - Prayatna 2.0 ACM 36Hr Hackathon</h3>
               <p className="text-gray-700 mt-2">
-                Won 4th place and Women Empowerment Token in AI & ML theme out of 100+ teams at Acropolis Institute, Indore.
+                Won 4th place and Women Empowerment Token in AI & ML theme out of 100+ teams at Acropolis Institute of Technology & Research, Indore.
               </p>
             </li>
 
